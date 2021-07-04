@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Funciones</title>
+</head>
+<body>
+	<h1>Ejrcicio3-Funciones basicas javascript</h1>
+
+     <!--Hacer una función que reciba como parámetro tres números enteros y que lo ordene de
+     mayor a menor.-->
+
+     <!-- Utilize el metodo burbuje pero sobre un vector ya cargado, debo ver como ingreso 3 valores 
+     	entero cargar el vecto a partir de lo que me ingrese el usuario-->
+
+	<script type="text/javascript">
+			
+		function ordenarMenorAMayor(){
+            let aux, i, j;
+            let ordenador=[1,4,2]; 
+              
+            for (i= 0; i < ordenador.length; i++) {
+
+            	for(j=1 ;j <= ordenador.length - i; j++){
+            		if (ordenador[j-1] < ordenador[j]){
+                		aux = ordenador[j-1];
+                		ordenador[j-1]= ordenador[j] ;
+                		ordenador[j] = aux;
+
+                	}
+
+            	}
+                	
+            } 
+
+            for(let l=0; l<=ordenador.length-1; l++){
+
+            	document.write(ordenador[l], ",");
+
+            }  
+            return;
+
+		}
+
+
+        ordenarMenorAMayor();		
+
+
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>

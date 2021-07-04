@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio3 - Javascript</title>
+</head>
+<body>
+    <h1>La veganza del contador</h1>
+
+
+	<script type="text/javascript">
+		var limite=10; 
+		var final = 15;
+		var pares= 0;
+		var impares=0;
+		var sumaTotal =0;
+		var i=0;
+      
+
+        while(i<= limite && pares < final){
+        
+        if ( i% 2 == 0) {
+				pares++;	
+			}
+
+		if(i % 3 == 0){
+			impares++;
+			}	
+
+		 sumaTotal = sumaTotal + i;	
+
+		i++;
+     
+        }
+		
+       
+        document.write('Suma total:', sumaTotal, ', Cantidad de numeros multiplos de 3:', impares);
+		
+
+
+	</script>
+
+</body>
+</html>

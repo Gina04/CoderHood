@@ -1,0 +1,10 @@
+Aquí tienes 7 plataformas para practicar JavaScript que no te costarán un céntimo.
+
+> Edabit.com 
+> coderwars.com 
+> exercism.io --> Recomendado 
+> coderbyte.com
+> codingame.com 
+> hackerrank -> orientada a personas que buscan superar prueba tecnica en empresas tecnologica. 
+> leetcode 
+>
