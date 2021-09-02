@@ -1,21 +1,31 @@
 @import url('https://fonts.googleapis.com/css2? family = Kaisei + Decol & display = swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 
-body{
+*{
 margin: 0;
 padding: 0;
 font-family: 'Montserrat', sans-serif;
-color: beige;
+color: #1F2937;
+}
+body{
+    display: flex;
+    height: 100vh;
+    background: #1ccdaa;
 }
 
 header{
-    background: orange;
     padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 1px 1px  rgba(0, 0, 0 , 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    height: 120px;
 
 }
 
 #botonera a{
-    color:blanchedalmond;
+    color:black;
     font-size: 1.3rem;
 }
 
@@ -26,8 +36,10 @@ header{
 }
 
 section{
-    background: orchid;
-    padding-bottom: 20px;
+    background-color: rgba(245, 244, 244, 0.3);
+    padding-top: 150px;
+    z-index:1;
+    
 }
 
 #btnGame{
@@ -44,6 +56,26 @@ section{
     margin-top: 20px;
 }
 
+.ancla_mueve{
+    width: 50px;
+    height: 50px;
+    background:#FFFFFF;
+    opacity: 0.4;
+    border-radius: 100%;
+    padding: 16PX;
+    display: flex;
+    justify-content: center;
+    float: right;
+    position: fixed;
+    bottom:30px;
+    right: 60px;
+   
+
+   
+}
+
+
 footer{
-    background: powderblue;
+    border-top: 1px solid #e0e0e0;
+    background-color: rgba(245, 244, 244, 0.3);
 }
