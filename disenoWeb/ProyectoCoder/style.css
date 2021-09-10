@@ -79,3 +79,20 @@ footer{
     border-top: 1px solid #e0e0e0;
     background-color: rgba(245, 244, 244, 0.3);
 }
+
+/*** SHOP**/
+
+.catalogue-container{
+    background-color: #e0e0e0;
+    
+   
+}
+
+.card{
+    border:#E5E7EB 2px solid;
+    border-radius: 10px;
+    overflow: hidden;
+
+    
+}
+
